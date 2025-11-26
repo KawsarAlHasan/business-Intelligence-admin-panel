@@ -51,7 +51,7 @@ const Sidebar = ({ onClick }) => {
       label: "Reservations",
       children: [
         {
-          key: "/dashboard",
+          key: "/",
           icon: <MdCalendarMonth className="w-5 h-5" />,
           label: <Link to="/dashboard">Booked By Dashboard</Link>,
         },
