@@ -1,8 +1,8 @@
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";
 
-// export const BASE_URL = "https://bi.dsrt321.online";
-export const BASE_URL = "http://10.10.7.97:9000";
+export const BASE_URL = "https://bi.dsrt321.online";
+// export const BASE_URL = "http://10.10.7.97:9000";
 
 export const API = axios.create({
   baseURL: `${BASE_URL}/api`,
