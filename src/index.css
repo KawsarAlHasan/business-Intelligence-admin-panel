@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+
+
+
+
+
+
+
+/* Custom styles for the sidebar */
+.ant-menu-dark {
+  background-color: #2E3F49;
+}
+
+.ant-menu-dark .ant-menu-item-selected {
+  background-color: #006699 !important;
+}
+
+.ant-menu-dark .ant-menu-item:hover {
+  background-color: #006699 !important;
+  color: #F3F3F3 !important;
+}
+
+.ant-menu-dark .ant-menu-submenu-title:hover {
+  background-color: #006699 !important;
+  color: #F3F3F3 !important;
+}
+
+.ant-menu-dark .ant-menu-item a {
+  color: #F3F3F3;
+}
+
+.ant-menu-dark .ant-menu-item-selected a {
+  color: #F3F3F3 !important;
+}
+
+
+
+/* For the Settings submenu header */
+.ant-menu-dark .ant-menu-submenu-title {
+  background-color: #2E3F49 !important;
+}
+
+/* For the Settings submenu items */
+.ant-menu-dark .ant-menu-submenu .ant-menu-item {
+  background-color: #2E3F49 !important;
+}
+
+/* Hover state for submenu items */
+.ant-menu-dark .ant-menu-submenu .ant-menu-item:hover {
+  background-color: #006699 !important;
+}
+
+/* Selected state for submenu items */
+.ant-menu-dark .ant-menu-submenu .ant-menu-item-selected {
+  background-color: #006699 !important;
+}
+
+
+
+
+
+.my-main-button {
+  color: #FEFEFE;
+  background-color: #006699;
+  border: none;
+}
+
+.my-main-button:hover {
+  background-color: #003955 !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+
+.my-custom-button {
+  color: #FEFEFE;
+  background-color: #359700;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: bold; 
+  border: none;
+}
+
+.my-custom-button:hover {
+  background-color: #236400 !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+
+.my-secondary-button {
+  color: #FE7400B2;
+  background-color: #ffffff;
+  border: 1px solid #FE7400B2;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: bold; 
+}
+
+.my-secondary-button:hover {
+  background-color: #FE7400B2 !important;
+  color: #fff !important;
+  border: 1px solid #FE7400B2 !important;
+}
+
+
+
+
+
+
+
+
+
